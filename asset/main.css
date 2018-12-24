@@ -1,0 +1,36 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.header {
+	overflow: hidden;
+	background-color: #336699;
+	padding: 20px 10px;
+}
+
+.header a {
+	float: left;
+	text-align: center;
+	padding: 0px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 20px;
+	border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-right {
+	float: right;
+}
+
+.bg {
+	background-image: linear-gradient(#404040, #282828);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
